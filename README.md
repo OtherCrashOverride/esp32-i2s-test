@@ -4,5 +4,4 @@
 
 Init and using I2S module in DAC mode:
 
-* Generate 1KHz triangle wave.
-     
+* Generate 1KHz sine wave.
