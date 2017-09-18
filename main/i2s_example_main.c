@@ -45,7 +45,7 @@ static void setup_triangle_sine_waves()
         ushort sample = (ushort)sin_float;
         //sample = sample << 8;
 
-        printf("sin_float=%f, sample=0x%x\n", sin_float, sample);
+        printf("sin_float=%f, sample=0x%04x (%d)\n", sin_float, sample, (short)sample);
 
 
         sample_val = (unsigned short)sample;
